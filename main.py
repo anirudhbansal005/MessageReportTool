@@ -26,7 +26,7 @@ def report_message(token, channel_id, message_id, breadcrumbs):
     return response
 
 def main():
-    token_file = "python/project_snip/token.txt"
+    token_file = "RELATIVE_PATH_HERE"
     tokens = load_tokens(token_file)
     
     channel_id = input("Enter the channel ID: ")
