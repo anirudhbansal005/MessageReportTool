@@ -41,20 +41,20 @@ def main(): # the magician
     message_ids = [msg_id.strip() for msg_id in message_ids]
     # Define breadcrumb presets (can be modified)
     breadcrumbs_presets = [
-        [3, 61, 103],  # drug and other sell 0
-        [3, 57, 86], # hate                  1
-        [3, 57, 68, 92], # cp                2
-        [3, 57, 68, 91], # cp images         3
-        [3, 57, 66, 87], # gore              4
-        [3, 75, 76, 112], # fake information 5
-        [3, 57, 82], # harass                6
-        [3, 57, 83], # vulgar lang           7 
-        [3, 57, 66, 89], # prn report        8
-        [3, 57, 66, 90], # prn share threat  9
-        [3, 57, 66, 88], # unwanted p img    10
-        [3, 57, 70, 97], # celebrating violence 11
-        [3, 57, 82], # verbal harass          12
-        [3, 60, 7] # number leak              13
+        [3, 61, 103],  # drug and other sell          0
+        [3, 57, 86], # hate speech                    1
+        [3, 57, 68, 92], # cp talks                   2
+        [3, 57, 68, 91], # cp images                  3
+        [3, 57, 66, 87], # gore and sensitive content 4
+        [3, 75, 76, 112], # fake information          5
+        [3, 57, 82], # harassment                     6
+        [3, 57, 83], # vulgar language                7  
+        [3, 57, 66, 89], # pprn report                8
+        [3, 57, 66, 90], # prn share threat           9
+        [3, 57, 66, 88], # unwanted prn img           10
+        [3, 57, 70, 97], # celebrating violence       11
+        [3, 57, 82], # verbal harassment              12
+        [3, 60, 7] # number leak                      13
     ]
     
     # Choose a breadcrumb preset
